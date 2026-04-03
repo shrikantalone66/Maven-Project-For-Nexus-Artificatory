@@ -30,6 +30,32 @@
 	<properties>
 		<java.version>17</java.version>
 	</properties>
+
+
+
+<distributionManagement>  
+
+    <repository>
+        <id>nexus</id>
+        <name>Shrikant Releases Nexus Repo</name>
+        <url>http://35.154.126.162:8081/repository/shrikant-release/</url>
+    </repository>
+    
+    <snapshotRepository>
+        <id>nexus</id>
+        <name>Shrikant Snapshots Nexus Repo</name>
+        <url>http://35.154.126.162:8081/repository/shrikant-snapshot/</url>
+    </snapshotRepository>
+    
+</distributionManagement>
+
+
+
+
+
+
+
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
