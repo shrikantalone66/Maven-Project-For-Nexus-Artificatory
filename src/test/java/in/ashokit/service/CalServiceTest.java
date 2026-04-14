@@ -32,7 +32,7 @@ public class CalServiceTest {
 	}
 
 	@ParameterizedTest
-	@ValueSource(ints = { 2, 4, 6, 8, 10, 11 })
+	@ValueSource(ints = { 2, 4, 6, 8, 10})
 	public void testEven(int num) {
 		boolean iseven = CalService.isEven(num);
 		Assertions.assertTrue(iseven);
